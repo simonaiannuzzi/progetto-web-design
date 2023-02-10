@@ -1,0 +1,9 @@
+body {
+  background-color: darkseagreen;
+}
+h1 {
+  color: darkgreen;
+}
+p {
+  color: olivegreen;
+}
