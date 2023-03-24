@@ -1,28 +1,83 @@
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>IL TITOLONEE</title>
+	<title>Titolo della tua pagina</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Impostazioni di stile CSS */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+
+		nav {
+			background-color: #eee;
+			padding: 10px;
+		}
+
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		nav li {
+			margin: 0 10px;
+		}
+
+		section {
+			padding: 20px;
+			text-align: center;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		@media screen and (max-width: 768px) {
+			nav ul {
+				flex-direction: column;
+			}
+
+			nav li {
+				margin: 10px 0;
+			}
+		}
+	</style>
 </head>
 <body>
-    <header>
-        <h1>Titolo dell'intestazione</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <h2>MIAOMIAOMIAO</h2>
-        <p>Mia miao miamiamiaoo</p>
-    </main>
-    
-    <footer>
-        <p>Copyright © 2023</p>
-    </footer>
+	<header>
+		<h1>Titolo della tua pagina</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Servizi</a></li>
+			<li><a href="#">Contatti</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<h2>Benvenuti nella tua nuova pagina web!</h2>
+		<p>Qui potrai inserire il contenuto della tua pagina.</p>
+	</section>
+
+	<footer>
+		<p>Copyright &copy; 2023</p>
+	</footer>
 </body>
 </html>
