@@ -11,13 +11,13 @@
 			background-color: #006400;
 			color: #fff;
 			padding: 20px;
-			position: sticky; top: 10px;
+			position: sticky;
 		}
 
 		nav {
 			background-color: #8FBC8F;
 			padding: 10px;
-			position: sticky; top: 10px;
+			position: sticky;
 		}
 
 		nav ul {
