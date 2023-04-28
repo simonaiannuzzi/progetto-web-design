@@ -36,6 +36,11 @@
 			text-align: center;
 		}
 
+                p {
+                        color: #8FBC8F;
+                }
+
+
 		footer {
 			background-color: #006400;
 			color: #fff;
