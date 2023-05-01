@@ -38,9 +38,12 @@
 		}
 
                 h2 {
-                        color: #0f3e0f;
+                        color: #006400;
                 }
 
+		h3 {
+                        color: #ffffff;
+                }
 
 		footer {
 			background-color: #006400;
