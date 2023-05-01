@@ -37,7 +37,11 @@
 			text-align: center;
 		}
 
-                h2 {
+ 		p {
+                        color: #006400;
+                }
+                
+		h2 {
                         color: #006400;
                 }
 
