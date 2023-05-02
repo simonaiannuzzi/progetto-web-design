@@ -5,6 +5,7 @@ Accademia di belle Arti ACME Novara_
 # sito Pro Loco di Casalbeltrame
 
 Ho deciso di realizzare la pagina per la Pro Loco del mio paese, ovvero Casalbeltrame
+
 Si tratta di una pagina HTML5 responsive
 
 Gli strumenti utilizzati per la creazione di questa pagina sono:
