@@ -24,6 +24,7 @@ nav ul {
   list-style: none;
   font-size: 18px;
   text-align: center;
+  paddinf-top: 16;
 }
 
 nav ul li {
