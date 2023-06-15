@@ -1,77 +1,78 @@
+/* Impostazioni di stile CSS */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Raleway:wght@100;300&family=Righteous&display=swap");
+body {
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-		/* Impostazioni di stile CSS */
-		@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Raleway:wght@100;300&family=Righteous&display=swap');
-		body {
-			font-family: 'Comfortaa', sans-serif;
-			margin: 0;
-			padding: 0;
-		}
+header {
+  background-color: #006400;
+  color: #fff;
+  padding: 5px;
+  position: sticky;
+  top: 0px;
+}
 
-		header {
-			background-color: #006400;
-			color: #fff;
-			padding: 5px;
-			position: sticky; top: 0px;
-		}
+nav {
+  background-color: #9acd32;
+  padding: 5px;
+}
 
-		nav {
-			background-color: #9ACD32;
-			padding: 5px;
-		}
+nav ul {
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+}
 
-		nav ul {
-                        list-style: none;
-                        text-align: center;
-                }
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
 
-                nav ul li {
-                        display: inline-block;
-                        margin-right: 10px;
-                }
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
 
-                nav ul li a {
-                       color: #fff;
-                       text-decoration: none;
-                       padding: 10px;
-                       border-radius: 4px;
-                       transition: background-color 0.3s ease;
-                }
+nav ul li a:hover {
+  background-color: #006400;
+}
 
-                nav ul li a:hover {
-                       background-color: #006400;
-		}
+section {
+  padding: 20px;
+  text-align: center;
+}
 
-		section {
-			padding: 20px;
-			text-align: center;
-		}
+p {
+  color: #006400;
+}
 
- 		p {
-                        color: #006400;
-                }
-                
-		h2 {
-                        color: #006400;
-                }
+h2 {
+  color: #006400;
+}
 
-		h3 {
-                        color: #006400;
-                }
+h3 {
+  color: #006400;
+}
 
-		footer {
-			background-color: #9ACD32;
-			color: #fff;
-			padding: 10px;
-			text-align: center;
-		}
+footer {
+  background-color: #9acd32;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
 
-		@media screen and (max-width: 768px) {
-			nav ul {
-				flex-direction: column;
-			}
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    font-size: 10px;
+  }
 
-			nav li {
-				margin: 10px 0;
-			}
-		}
-
+  nav li {
+    margin: 10px 0;
+  }
+}
