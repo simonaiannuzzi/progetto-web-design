@@ -61,6 +61,38 @@ h3 {
   color: #006400;
 }
 
+/*cookies*/
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.cookie-message {
+  font-size: 14px;
+  color: white;
+  margin-right: 10px;
+}
+.cookie-accept {
+  font-size: 14px;
+  background-color: var(--red-color);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.cookie-accept:hover {
+  background-color: #555;
+}
+/*fine cookies*/
+
 footer {
   background-color: #9acd32;
   color: #fff;
