@@ -59,7 +59,10 @@ h2 {
 
 h3 {
   color: #006400;
+  padding-top: 65px;
 }
+
+
 
 /*cookies*/
 .cookie-banner {
@@ -103,7 +106,7 @@ footer {
 @media screen and (max-width: 768px) {
   nav ul {
     flex-direction: column;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   nav li {
