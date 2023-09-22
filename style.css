@@ -78,13 +78,13 @@ h6 {
     color: #fff;
     text-align: center;
     padding: 10px;
-    z-index: 120;
 }
 
 .cookie-message {
   font-size: 14px;
   color: white;
   margin-right: 10px;
+  z-index: 120;
 }
 
 .accept-cookie {
