@@ -64,6 +64,10 @@ h3 {
   padding-top: 65px;
 }
 
+h4 {
+  color: #FFFFFF;
+}
+
 /* Stile per l'avviso sui cookie */
 .cookie-notice {
     position: fixed;
