@@ -18,9 +18,9 @@
 
 <body>
   <div id="cookie-notice" class="cookie-notice">
-    <p>Questo sito utilizza i cookie per migliorare l'esperienza dell'utente. Cliccando su "Accetta", acconsenti all'uso dei cookie.</p>
-    <button id="accept-cookie" class="accept-cookie">Accetta</button>
-  </div>
+        <p>Questo sito utilizza i cookie per migliorare l'esperienza dell'utente. Cliccando su "Accetta", acconsenti all'uso dei cookie.</p>
+        <button id="accept-cookie" class="accept-cookie">Accetta</button>
+    </div>
   <header>
     <h2> <img src="immagini/logo proloco.png" style="width:40px;height:40px;"> &nbsp; Pro Loco di Casalbeltrame </h2>
 
@@ -169,27 +169,21 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
   <script>
-    // Funzione per nascondere l'avviso dei cookie
-    function hideCookieNotice() {
-      document.getElementById('cookie-notice').style.display = 'none';
-    }
-    // Funzione per verificare se l'utente ha già accettato i cookie
-    function checkCookieConsent() {
-      if (localStorage.getItem('cookieConsent') === 'true') {
-        hideCookieNotice();
-      }
-    }
-    // Funzione per impostare il consenso ai cookie
-    function setCookieConsent() {
-      localStorage.setItem('cookieConsent', 'true');
-      hideCookieNotice();
-    }
-    // Controlla il consenso dei cookie quando la pagina si carica
-    document.addEventListener('DOMContentLoaded', function() {
-      checkCookieConsent();
-    });
-    // Aggiungi un ascoltatore di eventi al pulsante "Accetta"
-    document.getElementById('accept-cookie').addEventListener('click', setCookieConsent);
+   // Funzione per mostrare l'avviso dei cookie
+function showCookieNotice() {
+    document.getElementById('cookie-notice').style.display = 'block';
+}
+
+// Funzione per nascondere l'avviso dei cookie
+function hideCookieNotice() {
+    document.getElementById('cookie-notice').style.display = 'none';
+}
+
+// Aggiungi un ascoltatore di eventi al pulsante "Accetta"
+document.getElementById('accept-cookie').addEventListener('click', hideCookieNotice);
+
+// Mostra l'avviso dei cookie quando la pagina si carica
+document.addEventListener('DOMContentLoaded', showCookieNotice);
   </script>
 
   <script src="script.js"></script>
