@@ -80,6 +80,12 @@ h6 {
     padding: 10px;
 }
 
+.cookie-message {
+  font-size: 14px;
+  color: white;
+  margin-right: 10px;
+}
+
 .accept-cookie {
     background-color: #4CAF50;
     color: #fff;
