@@ -1,7 +1,8 @@
-# PROGETTO ESAME - Iannuzzi Simona
+# Sito web Pro Loco di Casalbeltrame
 _corso web design - Matteo Baccan
 <br/>
 Accademia di belle Arti ACME Novara_
+
 # sito Pro Loco di Casalbeltrame
 
 Ho deciso di realizzare la pagina per la Pro Loco del mio paese, ovvero Casalbeltrame.
