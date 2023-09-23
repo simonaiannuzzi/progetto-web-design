@@ -68,17 +68,6 @@ h6 {
   color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
-  h6, p, .text-4 {
-    font-size: 1rem; /* Ridimensionamento per schermi più piccoli */
-  }
-}
-@media (max-width: 480px) {
-  h6, p, .text-4 {
-    font-size: 0.8rem; /* Ridimensionamento ulteriore per schermi ancora più piccoli */  
-  }
-}
-
 /* Stile per l'avviso sui cookie */
 .cookie-notice {
     position: fixed;
