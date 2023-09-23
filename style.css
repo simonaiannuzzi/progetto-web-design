@@ -117,29 +117,3 @@ footer {
     margin: 10px 0;
   }
 }
-
-/* Stili per schermi fino a 768px */
-@media (max-width: 768px) {
-  .servizi-container {
-    flex-direction: column;
-  }
-  .servizio {
-    flex-basis: 100%;
-  }
-}
-/* Stili per schermi da 768px a 992px */
-@media (min-width: 768px) and (max-width: 992px) {
-  .servizi-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .servizio {
-    flex-basis: 50%;
-  }
-}
-/* Stili per schermi superiori a 992px */
-@media (min-width: 992px) {
-  .servizio {
-    flex-basis: 30%;
-  }
-}
