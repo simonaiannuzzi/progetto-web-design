@@ -84,7 +84,7 @@ h6 {
   font-size: 14px;
   color: white;
   margin-right: 10px;
-  z-index: 120;
+  z-index: 9999;
 }
 
 .accept-cookie {
