@@ -22,7 +22,7 @@ Lo scopo di questo repository è quello di creare una mono-pagina HTML5 responsi
 - Nome Pro Loco
 - Logo Pro Loco
 - Nav bar menu e hamburger menu per rendere la pagina responsive 
-- Carosello immagini
+- Carosello automatico immagini
 - Descrizione di come è nata la Pro Loco e cosa facciamo
 - Prossimo evento
 - Come diventare socio con form da compilare per ottenere moduli da compilare via mail
