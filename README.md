@@ -19,15 +19,16 @@ Lo scopo di questo repository è quello di creare una mono-pagina HTML5 responsi
 
 <h2> Elementi principali che compongono la pagina: </h2>
 
-- Nav bar menu e hamburger menu per rendere la pagina responsive
-- Nome azienda
-- Logo azienda
-- Descrizione dell'azienda (chi siamo, dove trovarci)
-- Descrizione dei prodotti e servizi offerti dall'azienda
-- Gallery
-- Footer con contatti e profili social dell'azienda
-- Form per contattare facilmente l'azienda
-- Cookies
+- Nome Pro Loco
+- Logo Pro Loco
+- Nav bar menu e hamburger menu per rendere la pagina responsive 
+- Carosello immagini
+- Descrizione di come è nata la Pro Loco e cosa facciamo
+- Prossimo evento
+- Come diventare socio con form da compilare per ottenere moduli da compilare via mail
+- Mappa per comunicare dove si terranno gli eventi
+- Footer con contatti e profili social della Pro Loco
+- Avviso cookies
 
 <h2> Struttura della pagina: </h2>
 
@@ -35,4 +36,4 @@ Lo scopo di questo repository è quello di creare una mono-pagina HTML5 responsi
 - CSS personale esterno
 - JavaScript
 
-link pagina Netlify: https://spontaneous-custard-332bc6.netlify.app/
+link pagina Netlify: https://prolocodicasalbeltrame.netlify.app/
