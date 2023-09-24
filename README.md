@@ -11,7 +11,7 @@ Lo scopo di questo repository è quello di creare una mono-pagina HTML5 responsi
 
 <h2>Siti e strumenti utilizzati per la creazione di questa pagina sono:</h2>
 
-- Bootstrap v5.0.2
+- Bootstrap v5.3.0
 - Fontawesome
 - Google Font
 - Codepen.io
