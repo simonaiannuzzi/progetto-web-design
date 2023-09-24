@@ -5,7 +5,7 @@ Iannuzzi Simona - 896<br/>
 Sito web mono-pagina per la Pro Loco di Casalbeltrame, dato che al momento non ne esiste uno<br/>
 Realizzato durante il corso di Web Design di Baccan Matteo_
 
-# sito Pro Loco di Casalbeltrame
+<h2> sito Pro Loco di Casalbeltrame </h2>
 
 Ho deciso di realizzare la pagina per la Pro Loco del mio paese, ovvero Casalbeltrame.
 
