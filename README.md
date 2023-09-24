@@ -5,15 +5,16 @@ Iannuzzi Simona - 896<br/>
 Sito web mono-pagina per la Pro Loco di Casalbeltrame, dato che al momento non ne esiste uno<br/>
 Realizzato durante il corso di Web Design di Baccan Matteo_
 
-<h2> sito Pro Loco di Casalbeltrame </h2>
+<h2> Obiettivo </h2>
 
-Ho deciso di realizzare la pagina per la Pro Loco del mio paese, ovvero Casalbeltrame.
+Lo scopo di questo repository è quello di creare una mono-pagina HTML5 responsive per la Pro Loco di Casalbeltrame
 
-Si tratta di una pagina HTML5 responsive.
+<h2>Siti e strumenti utilizzati per la creazione di questa pagina sono:</h2>
 
-Gli strumenti utilizzati per la creazione di questa pagina sono:
-- CodePen
-- Github
-- Netlify
+- Bootstrap v5.0.2
+- Fontawesome
+- Google Font
+- Codepen.io
+- Chat Gpt
 
 link pagina Netlify: https://spontaneous-custard-332bc6.netlify.app/
