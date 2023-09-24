@@ -1,7 +1,9 @@
 # Sito web Pro Loco di Casalbeltrame
-_corso web design - Matteo Baccan
-<br/>
-Accademia di belle Arti ACME Novara_
+_Accademia di belle arti ACME Novara
+Anno Accademico 2022-2023
+Iannuzzi Simona - 896
+Sito web mono-pagina per la Pro Loco di Casalbeltrame, dato che al momento non ne esiste uno
+Realizzato durante il corso di Web Design di Baccan Matteo_
 
 # sito Pro Loco di Casalbeltrame
 
